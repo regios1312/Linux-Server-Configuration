@@ -1,6 +1,5 @@
+
 1.URL:http://52.66.199.113.xip.io
-2.Currently active ssh port: 2200
-3.Publicly accessible IP address: 52.66.199.113
 ------------------------------------------------
 SOFTWARE INSTALLED
 
@@ -9,7 +8,7 @@ SOFTWARE INSTALLED
 3.Installed git.
 4.Installed flask and sqlalchemy using [sudo apt-get install python-pip python-flask python-sqlalchemy] command.
 5.Installed httplib2 by sudo pip install oauth2client requests httplib2 command.
-6.Installed sqlite using [sudo apt-get install sqlite3 libsqlite3-dev] command.
+6.Installed sqlite using [sudo apt-get install sqlite3 libsqlite3-dev] command.(Have used sqlite instead of postgresql)
 -------------------------------------------------
 Configurations made:
 1.Configured the timezone to UTC using [sudo dpkg-reconfigure tzdata] command.
@@ -32,6 +31,3 @@ Configurations made:
 11.Updated the Client_id and oauth_flow in flaskapp.py program.
 12.Created a key pair for grader using ssh-keygen command.
 --------------------------------------------------
-List of third party resources used to complete project:
-
-1.https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
