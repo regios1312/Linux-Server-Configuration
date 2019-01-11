@@ -34,5 +34,3 @@ Configurations made:
 10.Cloned my repository for item catalog project into /var/www/CatalogApp.
 11.Updated the Client_id and oauth_flow in flaskapp.py program.
 12.Created a key pair for grader using ssh-keygen command.
-
-----------------------------------------------------
