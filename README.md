@@ -1,6 +1,8 @@
 
 1.URL:http://52.66.199.113.xip.io
+
 ------------------------------------------------
+
 SOFTWARE INSTALLED
 
 1.Installed apache2 on the server using [sudo apt-get install apache2] command.
@@ -9,7 +11,9 @@ SOFTWARE INSTALLED
 4.Installed flask and sqlalchemy using [sudo apt-get install python-pip python-flask python-sqlalchemy] command.
 5.Installed httplib2 by sudo pip install oauth2client requests httplib2 command.
 6.Installed sqlite using [sudo apt-get install sqlite3 libsqlite3-dev] command.(Have used sqlite instead of postgresql)
+
 -------------------------------------------------
+
 Configurations made:
 1.Configured the timezone to UTC using [sudo dpkg-reconfigure tzdata] command.
 2.To configure ssh to a non-default port 1st went to the networking Tab of Lightsail and added a custom port set to 2200.
